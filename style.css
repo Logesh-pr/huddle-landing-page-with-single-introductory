@@ -12,7 +12,6 @@ button{
 }
 
 body{
-    width: 100%;
     min-height: 100vh;
     background-image: url("images/bg-mobile.svg");
     background-repeat: no-repeat;
@@ -116,14 +115,14 @@ footer{
     margin-top: 3rem;
     text-align: center;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: .8rem;
+    font-weight: 500;
 
     
 }
 footer a{
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: .8rem;
     color:#6DF3FF ;
 }
 @media only screen and (min-width:23.4375em){  
@@ -225,10 +224,14 @@ footer a{
         height: 45px;
         font-size: 1.3rem;
     }
-    footer{
-       text-align: end;
+      footer{
+       font-size: 1rem;
+       font-weight: 700;
     }
-    
+    footer a{
+        font-size: 1rem;
+        font-weight: 700;
+    }
 }
 @media only screen and (min-width:75em){
     .container{
